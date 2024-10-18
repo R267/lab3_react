@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабороторна робота №3</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Чернишов Роман студент 1П-21</h1>
+        <h2>2. Число Фібоначчі</h2>
+        <label for="fibInput">Введіть ціле додатнє число:</label>
+        <input type="number" id="fibInput" />
+        <br>
+        <button onclick="getFibonacci()">Обчислити</button>
+        <p id="fibResult"></p>
+    </div>
+
+    <div>
+        <h2>3. Фільтр</h2>
+        <label for="arrayInput">Введіть масив цифр (через кому):</label>
+        <input type="text" id="arrayInput" placeholder="1, 2, 3, 4, 5" />
+        <br>
+        <label for="handlerInput">Введіть число, щоб фільтрувати елементи більше ніж:</label>
+        <input type="number" id="handlerInput" />
+        <br>
+        <button onclick="filterArray()">Обчислити</button>
+        <p id="filterResult"></p>
+    </div>
+
+    <div>
+        <h2>4. Піднесення числа до степеня</h2>
+        <label for="baseInput">Введіть число:</label>
+        <input type="number" id="baseInput" />
+        <br>
+        <label for="exponentInput">Введіть степінь:</label>
+        <input type="number" id="exponentInput" />
+        <br>
+        <button onclick="calculatePower()">Обчислити</button>
+        <p id="powerResult"></p>
+    </div>
+
+    <div>
+        <h2>5. Піднесення до кожного числа степеня в масиві</h2>
+        <label for="arrayPowerInput">Введіть масив цифр (через кому):</label>
+        <input type="text" id="arrayPowerInput" placeholder="1, 2, 3, 4, 5" />
+        <br>
+        <label for="exponentPowerInput">Введіть степінь:</label>
+        <input type="number" id="exponentPowerInput" />
+        <br>
+        <button onclick="calculatePowerForList()">Обчислити</button>
+        <p id="powListResult"></p>
+    </div>
+    
+    <div>
+        <h2>6. Чиста функція powAndFilter</h2>
+        <label for="arrayPowerInput2">Введіть масив цифр (через кому):</label>
+        <input type="text" id="arrayPowerInput2" placeholder="1, 2, 3, 4, 5" />
+        <br>
+        <label for="exponentPowerInput2">Введіть степінь:</label>
+        <input type="number" id="exponentPowerInput2" />
+        <br>
+        <label for="handlerInput2">Введіть мінімальне значення для фільтра:</label>
+        <input type="number" id="handlerInput2" />
+        <br>
+        <button onclick="calculatePowerAndFilter()">Обчислити</button>
+        <p id="powListResult2"></p>
+    </div>
+
+    <div>
+        <h2>7. Чиста функція sum</h2>
+        <label for="numberArrayInput">Введіть масив чисел (через кому):</label>
+        <input type="text" id="numberArrayInput" placeholder="1, 2, 3, 4, 5" />
+        <br>
+        <button onclick="calculateSum()">Обчислити суму</button>
+        <p id="sumResult"></p>
+    </div>
+</body>
+</html>
